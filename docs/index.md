@@ -34,40 +34,58 @@
 | AliyunComputeNestUserFullAccess | 管理计算巢服务（ComputeNest）的用户侧权限 |
 
 ## 部署流程
+
 1.访问计算巢宝塔Windows面板[部署链接](https://computenest.console.aliyun.com/service/instance/create/cn-hangzhou?type=user&ServiceId=service-e26e5101a4f64c5d9969)
 ，按提示填写部署参数：
-    ![image.png](2.png)
+
+![image.png](2.png)
+
 
 2.参数填写完成后可以看到对应询价明细，确认参数后点击**下一步：确认订单**。
-    ![image.png](3.png)
 
-3.确认订单完成后同意服务协议并点击**立即创建**
-   进入部署阶段。
-    ![image.png](4.png)
+![image.png](3.png)
+
+
+3.确认订单完成后同意服务协议并点击**立即创建**进入部署阶段。
+
+![image.png](4.png)
+
 
 4.等待部署完成后进入服务实例管理，选择资源点击实例的资源ID。
-    ![image.png](5.png)
+
+![image.png](5.png)
+
 
 5.通过VNC远程连接机器。
-    ![image.png](7.png)
-    ![image.png](8.png)
+
+![image.png](7.png)
+![image.png](8.png)
+
 
 6.解锁远程页面并登录机器。（登录后机器会自己进行基础配置，稍等即可）
-    ![image.png](9.png)
-    ![image.png](10.png)
+
+![image.png](9.png)
+![image.png](10.png)
+
 
 7.打开文件管理，在D盘打开BtSoft文件夹，双击执行exe文件，点击一键安装
-    ![image.png](11.png)
+
+![image.png](11.png)
+
 
 8.等待安装成功，点击开始使用，根据面板初始信息用账号密码访问宝塔服务，在弹出的页面中输入软件自己生成的账号和密码。
-    ![image.png](12.png)
-    ![image.png](13.png)
+
+![image.png](12.png)
+![image.png](13.png)
+
 
 9.注册登录自己的账号就能使用宝塔服务了。
-    ![image.png](14.png)
+
+![image.png](14.png)
 
 
 ## 注意
 
 >外网如果登录宝塔面板原账号密码出错，请更改宝塔服务里面的基础配置，修改面板账号以及面板密码即可。
-    ![image.png](15.png)
+
+![image.png](15.png)
